@@ -26,7 +26,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 const corsOptions = {
-  origin: 'https://main--stellar-youtiao-5fef27.netlify.app',
+  origin: '*',
   credentials: true,
 }
 
