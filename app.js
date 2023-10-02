@@ -33,6 +33,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions))
 
+
 //allow requests under images folder to return picctures
 app.use('/images', express.static(join(__dirname, 'images')))
 
